@@ -1,5 +1,131 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Fonts Lists */
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway-font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Shared Styles Start */
+body {
+    max-width: 1440px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* Shared Styles End */
+
+/* Header Styles Start */
+
+header {
+    padding: 20px 0px;
+}
+
+.nav-bar {
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-container {
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand-name {
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(17, 17, 17);
+}
+
+.menu-icon {
+    display: none;
+}
+
+.list-items {
+    list-style: none;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.list-item {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.list-item-1 {
+    color: rgb(254, 163, 1);
+}
+
+.list-item-1 {
+    color: rgb(1, 172, 253);
+}
+
+.list-item-1 {
+    color: rgb(5, 212, 223);
+}
+
+.list-item-1 {
+    color: rgb(93, 88, 239);
+}
+
+.connect-btn {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 175px;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+}
+
+/* Header Styles End */
+
+
+/* Responsive Styles */
+@media screen and (max-width: 390px) {
+
+    /* Nav-bar Start */
+    .brand-name,
+    .menu-list-items,
+    .connect-btn-container {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    /* Nav-bar Start */
+
+
 }
