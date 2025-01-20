@@ -112,9 +112,13 @@ header {
 
 
 /* Responsive Styles */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 790px) {
 
-    /* Nav-bar Start */
+    /* Header Styles Start */
+    header {
+        border-bottom: 2px solid rgb(254, 163, 1);
+    }
+
     .brand-name,
     .menu-list-items,
     .connect-btn-container {
@@ -125,7 +129,7 @@ header {
         display: block;
     }
 
-    /* Nav-bar Start */
+    /* Header Styles Start */
 
 
 }
