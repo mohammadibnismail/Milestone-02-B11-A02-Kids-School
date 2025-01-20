@@ -110,6 +110,55 @@ header {
 
 /* Header Styles End */
 
+/* Main Styles Start */
+/* Banner Section Styles Start */
+.banner-container {
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 20px;
+}
+
+.banner-title {
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    margin: 24px 0px;
+}
+
+.banner-title-p1 {
+    color: rgb(254, 163, 1)
+}
+
+.banner-title-p2 {
+    color: rgb(1, 172, 253)
+}
+
+.banner-description {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(17, 17, 17);
+    text-align: left;
+    margin: 24px 0px;
+}
+
+.enroll-btn {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 10px;
+    width: 175px;
+}
+
+/* Banner Section Styles End */
+/* Main Styles End */
+
 
 /* Responsive Styles */
 @media screen and (max-width: 790px) {
@@ -129,7 +178,21 @@ header {
         display: block;
     }
 
-    /* Header Styles Start */
+    /* Header Styles End */
+
+    /* Banner Section Styles Start */
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-title,
+    .banner-description,
+    .banner-btn {
+        text-align: center;
+    }
+    /* Banner Section Styles End */
+
+
 
 
 }
