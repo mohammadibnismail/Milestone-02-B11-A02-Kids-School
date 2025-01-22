@@ -83,15 +83,15 @@ header {
     color: rgb(254, 163, 1);
 }
 
-.list-item-1 {
+.list-item-2 {
     color: rgb(1, 172, 253);
 }
 
-.list-item-1 {
+.list-item-3 {
     color: rgb(5, 212, 223);
 }
 
-.list-item-1 {
+.list-item-4 {
     color: rgb(93, 88, 239);
 }
 
@@ -394,6 +394,76 @@ header {
 /* Main Styles End */
 
 
+/* Footer Styles Start */
+footer {
+    padding: 125px 230px 175px 140px;
+    background: rgb(1, 172, 253);
+}
+
+.footer-container {
+    justify-content: space-between;
+    gap: 125px;
+    justify-items: left;
+}
+
+.footer-brand-brand-name {
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.footer-brand-brand-content {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    max-width: 400px;
+    margin-top: 35px;
+}
+
+.footer-menu-title {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.footer-list-items {
+    list-style: none;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.footer-list-item {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.footer-media-title {
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.footer-media-img {
+    border-radius: 4px;
+}
+
+/* Footer Styles Start */
+
+
 /* Responsive Styles */
 @media screen and (max-width: 790px) {
 
@@ -427,12 +497,17 @@ header {
 
     /* Banner Section Styles End */
     /* Standard Curriculum Styles Start */
+    .standard-curriculum {
+        padding: 0px;
+    }
+
     .standard-curriculum-container {
         padding: 0px 20px;
     }
 
     .standard-curriculum-class-boxes {
         flex-direction: column;
+        padding: 0px;
     }
 
     .standard-curriculum-nav-button {
@@ -447,6 +522,8 @@ header {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        margin: 40px 0px;
+        padding: 0px 20px;
     }
 
     .stories-card-1 {
@@ -473,5 +550,15 @@ header {
 
     /* Stories Styles End */
 
+    /* Footer Styles Start */
+    footer {
+        padding: 40px 20px;
+    }
 
+    .footer-container {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    /* Footer Styles Start */
 }
