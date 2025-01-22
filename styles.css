@@ -158,7 +158,7 @@ header {
 
 /* Banner Section Styles End */
 
-/* StandardCurriculum Styles Strat*/
+/* StandardCurriculum Styles Start */
 .standard-curriculum {
     padding: 60px 0px;
     background-image: url(assets/bg.png);
@@ -352,11 +352,6 @@ header {
     left: 25px;
 }
 
-/* .story-images {
-    
-    width: auto;
-} */
-
 .stories-card-title-0 {
     font-family: Quicksand;
     font-size: 24px;
@@ -453,27 +448,29 @@ header {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
+
     .stories-card-1 {
         display: none;
     }
-    
+
     .stories-card-2 {
         grid-column-start: 1;
     }
-    
+
     .stories-card-3 {
         grid-column-start: 2;
     }
-    
+
     .stories-card-4 {
         grid-column-start: 1;
         grid-row-start: 2;
     }
-    
+
     .stories-card-5 {
         grid-column-start: 2;
         grid-row-start: 2;
     }
+
     /* Stories Styles End */
 
 
