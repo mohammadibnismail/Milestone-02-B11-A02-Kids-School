@@ -162,7 +162,6 @@ header {
 .standard-curriculum {
     padding: 60px 0px;
     background-image: url(assets/bg.png);
-    background-repeat: no-repeat;
 }
 
 .standard-curriculum-container {
@@ -259,6 +258,144 @@ header {
     text-align: center;
 }
 
+/* StandardCurriculum Styles End*/
+
+/* Stories Styles Strat*/
+.stories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    background: url(assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+
+.stories-container-title {
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.stories-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    margin: 80px 0px;
+    padding: 0px 140px;
+}
+
+.stories-card img {
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+}
+
+.stories-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.stories-card-1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+}
+
+.stories-card-2 {
+    grid-column-start: 3;
+}
+
+.stories-card-3 {
+    grid-column-start: 4;
+}
+
+.stories-card-4 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.stories-card-5 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.stories-date-0 {
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-transform: capitalize;
+    border-radius: 47px;
+    background: rgb(60, 216, 232);
+    padding: 10px 15px;
+    max-width: fit-content;
+    position: relative;
+    top: -25px;
+    left: 50px;
+}
+
+.stories-date-1 {
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 47px;
+    background: rgb(60, 216, 232);
+    padding: 8px 12px;
+    max-width: fit-content;
+    position: relative;
+    top: -20px;
+    left: 25px;
+}
+
+/* .story-images {
+    
+    width: auto;
+} */
+
+.stories-card-title-0 {
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    padding: 25px 60px 0px 50px;
+}
+
+.stories-card-title-1 {
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    padding: 25px 25px 60px 25px;
+}
+
+.stories-content {
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    line-height: 28.76px;
+    text-align: left;
+    padding: 0px 20px;
+    padding: 50px 60px 35px 50px;
+}
+
+.view-all-btn {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 200px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+}
+
+/* Stories Styles End*/
 /* Main Styles End */
 
 
@@ -294,16 +431,50 @@ header {
     }
 
     /* Banner Section Styles End */
-    /* Standard Curriculum Styles Start */ 
+    /* Standard Curriculum Styles Start */
     .standard-curriculum-container {
         padding: 0px 20px;
     }
+
     .standard-curriculum-class-boxes {
         flex-direction: column;
     }
+
     .standard-curriculum-nav-button {
         display: none;
     }
+
+    /* Standard Curriculum Styles End */
+
+    /* Stories Styles Start */
+
+    .stories-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .stories-card-1 {
+        display: none;
+    }
+    
+    .stories-card-2 {
+        grid-column-start: 1;
+    }
+    
+    .stories-card-3 {
+        grid-column-start: 2;
+    }
+    
+    .stories-card-4 {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    
+    .stories-card-5 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+    /* Stories Styles End */
 
 
 }
